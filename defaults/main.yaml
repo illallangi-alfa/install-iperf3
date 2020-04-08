@@ -1,0 +1,6 @@
+---
+install_iperf3_packages:
+  debian: &debian
+    - "iperf3"
+  debian_armv7l: *debian
+  debian_x86_64: *debian
